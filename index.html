@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Panda Commerce</title>
+    <link rel="shortcut icon" href="./images/cute-panda-.avif" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.0/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
+    <style>
+        .fonts{
+            font-family: 'Montserrat', sans-serif;
+        }
+    </style>
+</head>
+<body class="fonts">
+    <header>
+        <div class="navbar bg-base-200 px-8 py-5 gap-5">
+            <div class="navbar-start">
+              <div class="dropdown">
+                
+                <ul tabindex="0" class=" mr-10 flex gap-2 md:gap-10">
+                  <li><a>Homepage</a></li>
+                  <li><a>Portfolio</a></li>
+                  <li><a>About</a></li>
+                </ul>
+              </div>
+            </div>
+            <div class="navbar-center">
+              <img src="./images/logo.png" alt="" srcset="">
+            </div>
+            <div class="navbar-end">
+              <button class="btn btn-ghost btn-circle">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+              </button>
+              <button class="btn btn-ghost btn-circle">
+                <div class="indicator">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                  <span class="badge badge-xs badge-primary indicator-item"></span>
+                </div>
+              </button>
+            </div>
+          </div>
+    </header>
+    <section class=" px-8 py-5 my-10">
+        <div class="carousel w-full  ">
+            <div id="slide1" class="carousel-item relative w-full">
+                <div class="hero min-h-screen bg-base-200 ">
+                    <div class="hero-content flex-col lg:flex-row gap-10">
+                      <img src="./images/bags/bag-1.png" class="max-w-sm rounded-lg shadow-2xl " />
+                      <div>
+                        <h1 class="text-5xl font-bold">Bags Office News!</h1>
+                        <p class="py-6">Provident cupiditate voluptatem et. <br> Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br> In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide4" class="btn btn-circle">❮</a> 
+                <a href="#slide2" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide2" class="carousel-item relative w-full">
+                <div class="hero min-h-screen bg-base-200 ">
+                    <div class="hero-content flex-col lg:flex-row gap-10">
+                      <img src="./images/shoes/shoe-3.png" class="max-w-sm rounded-lg shadow-2xl " />
+                      <div>
+                        <h1 class="text-5xl font-bold">Shoes Office News!</h1>
+                        <p class="py-6">Provident cupiditate voluptatem et. <br> Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br> In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide1" class="btn btn-circle">❮</a> 
+                <a href="#slide3" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide3" class="carousel-item relative w-full">
+                <div class="hero min-h-screen bg-base-200 ">
+                    <div class="hero-content flex-col lg:flex-row gap-10">
+                      <img src="./images/watch/Watches-Under-2-Lakh.webp" class="max-w-sm rounded-lg shadow-2xl " />
+                      <div>
+                        <h1 class="text-5xl font-bold">Watch Office News!</h1>
+                        <p class="py-6">Provident cupiditate voluptatem et. <br> Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br> In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide2" class="btn btn-circle">❮</a> 
+                <a href="#slide4" class="btn btn-circle">❯</a>
+              </div>
+            </div> 
+            <div id="slide4" class="carousel-item relative w-full">
+                <div class="hero min-h-screen bg-base-200 ">
+                    <div class="hero-content flex-col lg:flex-row gap-10">
+                      <img src="./images/bags/bag-1.png" class="max-w-sm rounded-lg shadow-2xl " />
+                      <div>
+                        <h1 class="text-5xl font-bold">Bags Office News!</h1>
+                        <p class="py-6">Provident cupiditate voluptatem et. <br> Quaerat fugiat ut assumenda excepturi exercitationem quasi. <br> In deleniti eaque aut repudiandae et a id nisi.</p>
+                        <button class="btn btn-primary">Get Started</button>
+                      </div>
+                    </div>
+                  </div>
+              <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <a href="#slide3" class="btn btn-circle">❮</a> 
+                <a href="#slide1" class="btn btn-circle">❯</a>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class=" px-8 py-5 my-10 grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-3 ">
+        <div class="card w-96 bg-base-200 text-black">
+            <div class="card-body items-center text-center">
+              <img src="./images/categories/bag.png" alt="" srcset="">
+              <p>We are using bags for no reason.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn btn-ghost">Deny</button>
+              </div>
+            </div>
+          </div>
+        <div class="card w-96 bg-base-200 text-black">
+            <div class="card-body items-center text-center">
+              <img src="./images/categories/watch.png" alt="" srcset="">
+              <p>We are using watches for no reason.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn btn-ghost">Deny</button>
+              </div>
+            </div>
+          </div>
+        <div class="card w-96 bg-base-200 text-black">
+            <div class="card-body items-center text-center">
+              <img src="./images/categories/shoes.png" alt="" srcset="">
+              <p>We are using bags for no reason.</p>
+              <div class="card-actions justify-end">
+                <button class="btn btn-primary">Accept</button>
+                <button class="btn btn-ghost">Deny</button>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section class="px-8 py-5 my-10 ">
+        <div class="text-center">
+            <h2 class="font-extrabold text-5xl">Shoes</h2>
+            <p class="mx-20 md:mx-48 my-5">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img src="./images/shoes/shoe-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img src="./images/shoes/shoe-2.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img src="./images/shoes/shoe-3.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="px-8 py-5 my-10 ">
+        <div class="text-center">
+            <h2 class="font-extrabold text-5xl">Bags</h2>
+            <p class="mx-20 md:mx-48 my-5">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img src="./images/bags/bag-1.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img src="./images/bags/bag-2.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img src="./images/bags/bag-3.png" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="px-8 py-5 my-10 ">
+        <div class="text-center">
+            <h2 class="font-extrabold text-5xl">Watches</h2>
+            <p class="mx-20 md:mx-48 my-5">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+        </div>
+        <div class="grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10">
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img class="h-80 w-full" src="./images/watch/IMG_2219.jpg" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img class="h-80 w-full" src="./images/watch/w674.webp" alt="Shoes" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+            <div class="card w-96 bg-base-200 shadow">
+                <figure><img src="./images/watch/Watches-Under-2-Lakh.webp" alt="Shoes " class="h-80 w-full" /></figure>
+                <div class="card-body">
+                  <h2 class="card-title">
+                    Shoes!
+                    <div class="badge badge-secondary">NEW</div>
+                  </h2>
+                  <p>If a dog chews shoes whose shoes does he choose?</p>
+                  <div class="card-actions justify-end">
+                    <div class="badge badge-outline">Fashion</div> 
+                    <div class="badge badge-outline">Products</div>
+                  </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="px-8 py-5 my-10">
+        <div class="hero min-h-screen bg-base-200">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+              <div class="text-center lg:text-left">
+                <h1 class="text-5xl font-bold">Login now!</h1>
+                <p class="py-6">Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                    Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda excepturi exercitationem quasi. In deleniti eaque aut repudiandae et a id nisi.
+                </p>
+              </div>
+              <div class="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100 ">
+                <div class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Email</span>
+                    </label>
+                    <input type="text" placeholder="email" class="input input-bordered" />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text">Password</span>
+                    </label>
+                    <input type="text" placeholder="password" class="input input-bordered" />
+                    <label class="label">
+                      <a href="#" class="label-text-alt link link-hover">Forgot password?</a>
+                    </label>
+                  </div>
+                  <div class="form-control mt-6">
+                    <button class="btn btn-primary">Login</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+    <footer>
+        <footer class="footer p-10 bg-neutral text-neutral-content">
+            <div>
+              <span class="footer-title">Services</span> 
+              <a class="link link-hover">Shoes</a>
+              <a class="link link-hover">Bags</a>
+              <a class="link link-hover">Watches</a>
+              <a class="link link-hover">All Products</a>
+            </div> 
+            <div>
+              <span class="footer-title">Company</span> 
+              <a class="link link-hover">About us</a>
+              <a class="link link-hover">Contact</a>
+              <a class="link link-hover">Jobs</a>
+              <a class="link link-hover">Press kit</a>
+            </div> 
+            <div>
+              <span class="footer-title">Legal</span> 
+              <a class="link link-hover">Terms of use</a>
+              <a class="link link-hover">Privacy policy</a>
+              <a class="link link-hover">Cookie policy</a>
+              <a class="link link-hover">Payment policy</a>
+            </div>
+          </footer>
+    </footer>
+</body>
+</html>
